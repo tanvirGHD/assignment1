@@ -1,0 +1,221 @@
+
+
+
+body{
+    background-color: #CBDCF7;
+}
+
+
+
+.navbar{ 
+
+    width:430px;
+    height:60px;
+    margin:0 auto;
+    
+    
+  }
+ 
+  .navbar ul li { 
+    list-style-type:none;
+    margin:20px;
+  float:left;
+  }
+
+  .navbar ul li a { 
+  text-decoration: none;
+  font-size: 25px;
+  color:black;
+  
+  }
+  .navbar ul li a:hover{
+    text-decoration: underline;
+  }
+  body{
+    font-family: Arial, sans-serif;
+    background-color: #CBDCF7;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    
+    text-align: center;
+    padding: 8px;
+    text-align: center;
+}
+
+.hed{
+    font-size: 1.5rem;
+}
+
+/*about start*/
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .image-container {
+    position: relative;
+    text-align: center;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  }
+  
+  .overlay-text h1 {
+    font-size: 4.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  .overlay-text p {
+    font-size: 1.2em;
+    margin: 0;
+  }
+  .overlay-text button{
+    margin-top: 25px;
+    background-color: rgb(212, 212, 112);
+    color: black;
+    border-radius: 10px;
+  } 
+  /*about us end*/
+  /*main menu start*/
+  
+  .background-image {
+    background-image: url('your-background-image.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    text-align: center;
+    
+  }
+  .over-text {
+   padding-left: 15%;
+   padding-top: 15%;
+  }
+   
+  
+  
+  .over-text h1 {
+    margin-bottom: 50px;
+    font-size: 3em;
+    margin-top: 50px;
+    text-align: center;
+    
+
+  }
+
+  .over-text h2{
+    width: 50%;
+    font-size: 2.5rem;
+    text-align: left;
+  }
+  
+  .over-text p {
+    font-size: 1.5em;
+    margin: 0;
+    width: 50%;
+    text-align: left;
+  }
+  .images{
+    width: 80%;
+    height: 60%;
+    position: relative;
+    bottom: 0;
+    right: 60px;
+  }
+  .images img{
+    padding-top: 25%;
+    height: 150%;
+    position: relative;
+    left: 10%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+  }
+  .over-text button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    margin-left: -90%;
+    align-items: flex-start;
+
+  }
+
+  
+
+/* contact start*/
+.con{
+    padding-top: 10%;
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+p{
+    font-size: 1rem;
+}
+
+.dec{
+    font-size: 1.9rem;
+    font-weight: bold;
+    color: white;
+}
+#sec {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: black;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: white;
+   
+}
+.col{
+    text-decoration-color: white;
+}
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+}
+
+button {
+    background-color:rgb(212, 212, 112);
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #555;
+}
+.im{
+    margin-top: 2px;
+    height: 400px;
+    width: 600px
+    
+    
+    
+}
