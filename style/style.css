@@ -6,9 +6,9 @@
 /*Banner container style start*/
 
 .banner-container{
-    width: 1532px;
+    width: 1517px;
     height: 660px;
-    border: 2px solid purple;
+    border-style: dashed;
     background-image: url('../assets/Hero-bg.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -52,7 +52,133 @@
     
 }
 /*Banner container style End*/
-
+/*web development container style start*/
 .web-development-container{
+    background-color:rgba(13, 19, 33, 0.02);
+    width: 1000px;
+    height: 1200px;
+    margin: 0 auto;
+    padding: 80px 94px 80px 94px;
+    border-radius: 16px;   
+}
+.web-info-start h2{
+    text-align: center;
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    padding-bottom: 25px;
     
 }
+.web-info-start p{
+    text-align: center;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 96px;
+}
+.first-web-info{
+    width: 1000px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 50px;
+}
+.first-web-info-content{
+    width: 600px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+    margin-right: 100px;
+}
+.first-web-info-content h3{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 19px;
+    padding-left: 20px;
+}
+.first-web-info-content p{
+    color: rgb(13, 19, 33);
+    font-size: 17px;
+    font-weight: 400;
+    padding-bottom: 38px;
+    padding-left: 20px;
+}
+.first-web-info-content button{
+    color: rgb(13, 19, 33);
+    font-size: 15px;
+    font-weight: 600;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding-left: 10px;
+    padding: 10px 15px;
+}
+.first-web-img img{
+    width: 239.56px;
+    height: 210.01px;
+    padding-top: 10px;
+    padding-right: 100px;
+}
+
+.second-web-info{
+    width: 1000px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+.second-web-content{
+    width: 477px;
+    height: 210px;
+    padding-left: 100px;
+
+}
+.second-web-content h3{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 19px;
+    padding-left: 20px;
+}
+.second-web-content p{
+    color: rgb(13, 19, 33);
+    font-size: 17px;
+    font-weight: 400;
+    padding-bottom: 38px;
+    padding-left: 20px;
+}
+.second-web-content button{
+    color: rgb(13, 19, 33);
+    font-size: 15px;
+    font-weight: 600;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 10px 15px; 
+}
+/*web development container style End*/
+.inspiration-video-part{
+    margin-top: 90px;
+}
+.inspiration-content{
+    text-align: center;
+
+}
+
+
+
+
