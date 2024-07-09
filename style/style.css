@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Banner container style start*/
+
+.banner-container{
+    width: 1532px;
+    height: 660px;
+    border: 2px solid purple;
+    background-image: url('../assets/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 75px;
+}
+.banner-img img{
+    width: 240.28px;
+    height: 240px;
+    padding-top: 26px;
+    padding-left: 646px;
+    padding-bottom: 32px;
+
+}
+.banner-content h1{
+    text-align: center;
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    padding-bottom: 24px;
+}
+.banner-content p{
+    text-align: center;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 40px;
+}
+.banner-content button{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 680px;
+    padding: 21px 24px 21px 24px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    
+}
+/*Banner container style End*/
+
+.web-development-container{
+    
+}
