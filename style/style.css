@@ -8,7 +8,6 @@
 .banner-container{
     width: 1517px;
     height: 660px;
-    border-style: dashed;
     background-image: url('../assets/Hero-bg.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -52,6 +51,7 @@
     
 }
 /*Banner container style End*/
+
 /*web development container style start*/
 .web-development-container{
     background-color:rgba(13, 19, 33, 0.02);
@@ -144,7 +144,6 @@
     width: 477px;
     height: 210px;
     padding-left: 100px;
-
 }
 .second-web-img{
     padding-right: 80px;
@@ -177,7 +176,6 @@
 }
 /*web development container style End*/
 .inspiration-video-container{
-    border: 2px solid red;
     width: 1180px;
     height: 775px;
     margin: 0 auto;
@@ -210,8 +208,6 @@
     border-radius: 16px;
     padding-top: 22px;
     padding-bottom: 35px;
-    
- 
 }
 .video-section iframe{
     width: 1140px;
@@ -222,10 +218,10 @@
 }
 /*video section End*/
 
+/* Card Style Start*/
 .card-container{
     width: 1140px;
     height: 650px;
-    border: 3px solid red;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -287,7 +283,7 @@
 }
 .card-description{
     height: 400px;
-    border: 3px solid purple;
+ 
 }
 .card-description-bg1{
     border-radius: 16px;
@@ -308,18 +304,13 @@
     background: rgba(255, 223, 0, 0.05);
     height: 350px;
 }
+/* Card Style End*/
 
+/*Support section style start*/
 .support-section-container{
-    width: 1140px;
-    height: 313px;
-    border: 3px solid blue;
-    margin: 0 auto;
-}
-/*End*/
-.support-section-container{
-    border: 3px solid red;
     width: 1140px;
     height: 314px;
+    margin: 0 auto;
     background-image: url(../assets/handshake.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -351,13 +342,13 @@
 .btn1{
     color: rgba(13, 19, 33, 0.4);
     font-size: 10px;
-    font-weight: 400;
+    font-weight: 200;
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 5px;
     background: rgb(255, 255, 255);
     margin-top: 40px;
-    padding: 10px 100px;
+    padding: 13px 130px;
     
 }
 .btn2{
@@ -365,13 +356,12 @@
     margin-left: 8px;
     border-radius: 5px;
 }
-/* end*/
-.footer-container{
+/*Support section style End*/
+
+/*footer style start*/
+#footer-container{
     width: 1517px;
-    height: 80px;
-    
-    
-    
+    height: 80px;         
 }
 .footer-content{
     display: flex;
@@ -392,9 +382,16 @@
     background-color: rgb(255, 249, 249);
     border-radius: 8px;
 }
-.contact img{
-    background-color: white;
+.contact {
+    height: 50px;
+    width: auto;
+    padding-top: 20px;
+    margin-right: 180px;
 }
+.contact img{
+    padding-left: 30px;
+}
+/*footer style End*/
 
 
 

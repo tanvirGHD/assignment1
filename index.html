@@ -7,15 +7,18 @@
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
+    <!--Banner section Start-->
     <header class="banner-container">
         <div class="banner-content">
             <div class="banner-img"><img src="assets/Group.png" alt=""></div>
             <h1>"In the near future, I hope to become a <br>Developer."</h1>
             <p>Aspiring developer seeking to enhance skills through learning, building projects, and contributing to open source,<br> aiming for a career in software development soon.</p>
-            <button>Contact with me</button>
+            <button  onclick="document.getElementById('footer-container').scrollIntoView({ behavior:'smooth' });">Contact with me</button>
         </div>
     </header>
+    <!--Banner section End-->
     <main>
+    <!--Web development content Section Start-->
         <section class="web-development-container">
            <div class="web-development-content">
             <div class="web-info-start">
@@ -54,6 +57,8 @@
             </div>
            </div>
         </section>
+    <!--Web development content Section End-->
+    <!--Inspiration Video Section Start-->
         <section class="inspiration-video-container">
             <div class="inspiration-content">
                 <h3>My Inspiration</h3>
@@ -66,6 +71,8 @@
                
             </div>
         </section>
+    <!--Inspiration Video Section End-->
+    <!--Card Section Start-->
         <section class="card-container">
             <div class="card-content">
                 <h3>My Current Target</h3>
@@ -81,7 +88,7 @@
                     </p>
                     <ul>
                         <li>
-                            <a class="more-link" href="https://www.w3schools.com/css/" target="_blank">Learn More</a>
+                            <a class="more-link" href="https://www.w3schools.com/html/default.asp" target="_blank">Learn More</a>
                         </li>
                     </ul>
                     </div>
@@ -113,6 +120,8 @@
             </div>
             
         </section>
+    <!--Card Section End-->
+    <!--Support section container End-->
         <section class="support-section-container">
             <div class="support-content">
                 <h3>I need Support</h3>
@@ -125,16 +134,20 @@
                 </form>
             </div>
         </section>
+    <!--Support section container End-->
     </main>
-    <footer class="footer-container">
-        <div class="footer-content">
-            <h4>An Open Commitment by Awlad Hossain</h4>
-           <div class="contact">
-            <img src="assets/facebook.png" alt="">
-            <img src="assets/github.png" alt="">
-            <img src="assets/linkedin-icon 1.png" alt="">
-           </div>
-        </div>
-    </footer>
+    <!--Footer Start-->
+        <footer id="footer-container" >
+            <div class="footer-content">
+                <h4>An Open Commitment by Awlad Hossain</h4>
+               <div class="contact">
+               
+                <a href="https://www.facebook.com/" target="_blank"><img src="./assets/facebook.png" alt="Facebook" ></a>
+                <a href="https://github.com/tanvirGHD/assignment1" target="_blank"><img src="./assets/github.png" alt="Github"></a>
+                <a href="https://www.linkedin.com/feed/" target="_blank"><img src="./assets/linkedin-icon 1.png" alt="Linkedin"></a>
+               </div>
+            </div>
+        </footer>
+    <!--Footer End-->
 </body>
 </html>
