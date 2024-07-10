@@ -60,6 +60,7 @@
     margin: 0 auto;
     padding: 80px 94px 80px 94px;
     border-radius: 16px;   
+    margin-bottom: 88px;
 }
 .web-info-start h2{
     text-align: center;
@@ -100,14 +101,14 @@
     font-size: 24px;
     font-weight: 700;
     padding-bottom: 19px;
-    padding-left: 20px;
+    padding-left: 60px;
 }
 .first-web-info-content p{
     color: rgb(13, 19, 33);
     font-size: 17px;
     font-weight: 400;
     padding-bottom: 38px;
-    padding-left: 20px;
+    padding-left: 60px;
 }
 .first-web-info-content button{
     color: rgb(13, 19, 33);
@@ -117,7 +118,7 @@
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
     margin-bottom: 20px;
-    margin-left: 20px;
+    margin-left: 60px;
     padding-left: 10px;
     padding: 10px 15px;
 }
@@ -125,7 +126,7 @@
     width: 239.56px;
     height: 210.01px;
     padding-top: 10px;
-    padding-right: 100px;
+    padding-right: 70px;
 }
 
 .second-web-info{
@@ -145,19 +146,23 @@
     padding-left: 100px;
 
 }
+.second-web-img{
+    padding-right: 80px;
+    padding-left: 45px;
+}
 .second-web-content h3{
     color: rgba(13, 19, 33, 0.7);
     font-size: 24px;
     font-weight: 700;
     padding-bottom: 19px;
-    padding-left: 20px;
+    padding-left: 44px;
 }
 .second-web-content p{
     color: rgb(13, 19, 33);
     font-size: 17px;
     font-weight: 400;
     padding-bottom: 38px;
-    padding-left: 20px;
+    padding-left: 44px;
 }
 .second-web-content button{
     color: rgb(13, 19, 33);
@@ -167,18 +172,229 @@
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
     margin-bottom: 20px;
-    margin-left: 20px;
-    padding: 10px 15px; 
+    margin-left: 44px;
+    padding: 10px 20px; 
 }
 /*web development container style End*/
-.inspiration-video-part{
-    margin-top: 90px;
+.inspiration-video-container{
+    border: 2px solid red;
+    width: 1180px;
+    height: 775px;
+    margin: 0 auto;
 }
-.inspiration-content{
+.inspiration-content {
     text-align: center;
+}
+.inspiration-content h3 {
+    padding-top: 8px;
+    margin-bottom: 28px;
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+}
+.inspiration-content p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 45px;
+}
+/*video section start*/
+.video-section{
+    width: 1140px;
+    height: 580px;
+    margin: 0 auto;    
+}
+.video-border{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding-top: 22px;
+    padding-bottom: 35px;
+    
+ 
+}
+.video-section iframe{
+    width: 1140px;
+    height: 595px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+/*video section End*/
+
+.card-container{
+    width: 1140px;
+    height: 650px;
+    border: 3px solid red;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
 
 }
+.card-content {
+    text-align: center;
+    padding-bottom: 48px;
+}
+.card-content h3{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 47px;
+    
+}
+.card-content h3{
+    padding-bottom: 24px;
+}
 
+.card-description img{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+}
+.card-description h4{
+    padding-bottom: 14px;
+    padding-left: 40px;
+}
+.card-description p{
+    padding-bottom: 24px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-left: 40px;
+    }
+.more-link{
+    color: black;
+    margin-bottom: 50px;
+    padding-left: 42px;
+    
+} 
+.card-description{
+    height: 1070px;
+}
+.card-description ul li{
+    list-style-type: none;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.card-description{
+    height: 400px;
+    border: 3px solid purple;
+}
+.card-description-bg1{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    margin-right: 24px;
+    margin-bottom: 990px;
+    height: 350px;
+}
+.card-description-bg2{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    margin-right: 24px;
+    height: 350px;
+}
+
+.card-description-bg3{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    height: 350px;
+}
+
+.support-section-container{
+    width: 1140px;
+    height: 313px;
+    border: 3px solid blue;
+    margin: 0 auto;
+}
+/*End*/
+.support-section-container{
+    border: 3px solid red;
+    width: 1140px;
+    height: 314px;
+    background-image: url(../assets/handshake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    margin-bottom: 80px;
+
+}
+.support-content{
+    text-align: center;
+}
+.support-content h3{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    padding-top: 64px;
+}
+.support-content p{
+    padding-top: 16px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1.3px;
+}
+.form-content{
+    text-align: center;
+}
+.btn1{
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 10px;
+    font-weight: 400;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    margin-top: 40px;
+    padding: 10px 100px;
+    
+}
+.btn2{
+    padding: 11px 15px;
+    margin-left: 8px;
+    border-radius: 5px;
+}
+/* end*/
+.footer-container{
+    width: 1517px;
+    height: 80px;
+    
+    
+    
+}
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 22px 20px;
+    border-radius: 16px;
+    background-color: rgb(214, 212, 212);
+}
+.footer-content h4{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    margin-left:165px ;
+    padding: 15px 100px;
+    background-color: rgb(255, 249, 249);
+    border-radius: 8px;
+}
+.contact img{
+    background-color: white;
+}
 
 
 
